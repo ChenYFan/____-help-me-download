@@ -6,10 +6,6 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- task: NodeTool@0
-  inputs:
-    versionSpec: '10.x'
-  displayName: 'Install Node.js'
 
 - script: |
     curl -LJO "https://github.com/ChenYFan/____-help-me-download/archive/master.zip"
